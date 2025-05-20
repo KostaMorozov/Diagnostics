@@ -1,0 +1,255 @@
+#root {
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.chartHeader {
+  width: 159px;
+  height: 29px;
+  flex-grow: 0;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #01152b;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addButton {
+  color: white;
+  width: 108px;
+  height: 32px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: #7071f3;
+  border: 1px solid white;
+}
+
+.saveButton {
+  color: white;
+  width: 66px;
+  height: 48px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 16px;
+  border-radius: 8px;
+  background-color: #7071f3;
+}
+
+.cancelButton {
+  width: 81px;
+  height: 48px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: solid 1px #b1b9c3;
+}
+
+.footerAddModal {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.error-text {
+  color: red;
+}
+
+.error-border .MuiOutlinedInput-root {
+  border: 1px solid red;
+}
+
+.topBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px 0 rgba(2, 29, 61, 0.12);
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.padding-x-64 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.chartHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.margin-y-24 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contentContainer {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #e6e8ec;
+}
+
+.chartContent {
+  background-color: white;
+}
+
+.chartDate {
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.dashboardHeader {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.addModalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chartHeaderText {
+  width: 92px;
+  height: 17px;
+  flex-grow: 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #888989;
+}
+
+.chartIconWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sideBar {
+  width: 5%;
+  min-height: 95vh;
+  padding: 16px 12px;
+  background-color: #2f2f66;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sideBarActionsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.sideBarAction {
+  width: fit-content;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  border-radius: 50%;
+}
+
+.sideBarAction:hover {
+  background-color: #12ffe35d;
+}
+
+.footerActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profileAction {
+  color: white;
+  font-family: Montserrat;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-color: #7071f3;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.dashboardHeader::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #12ffe2;
+  position: relative;
+}
+
+.innerHeaderText {
+  color: #7071f3;
+}
+
+.selectedActions {
+  background-color: #12ffe2;
+  border-radius: 50%;
+}
+
+.noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
